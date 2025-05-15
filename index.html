@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pengumuman Juara</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f8f9fa;
+    }
+    .card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .winner-badge {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .juara-1 { color: #ffd700; } /* emas */
+    .juara-2 { color: #c0c0c0; } /* perak */
+    .juara-3 { color: #cd7f32; } /* perunggu */
+  </style>
+</head>
+<body>
+
+<div class="container py-5">
+  <h1 class="text-center mb-4">Pengumuman Juara Lomba</h1>
+
+  <div class="row g-4 justify-content-center">
+    <!-- Juara 1 -->
+    <div class="col-md-4">
+      <div class="card text-center">
+        <img src="https://via.placeholder.com/300x200?text=Juara+1" class="card-img-top" alt="Juara 1">
+        <div class="card-body">
+          <h5 class="card-title winner-badge juara-1">Juara 1</h5>
+          <p class="card-text">Nama: <strong>Ahmad Fajar</strong></p>
+          <p class="text-muted">Kelas XI TJKT 1</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Juara 2 -->
+    <div class="col-md-4">
+      <div class="card text-center">
+        <img src="https://via.placeholder.com/300x200?text=Juara+2" class="card-img-top" alt="Juara 2">
+        <div class="card-body">
+          <h5 class="card-title winner-badge juara-2">Juara 2</h5>
+          <p class="card-text">Nama: <strong>Siti Nurhaliza</strong></p>
+          <p class="text-muted">Kelas XI TJKT 2</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Juara 3 -->
+    <div class="col-md-4">
+      <div class="card text-center">
+        <img src="https://via.placeholder.com/300x200?text=Juara+3" class="card-img-top" alt="Juara 3">
+        <div class="card-body">
+          <h5 class="card-title winner-badge juara-3">Juara 3</h5>
+          <p class="card-text">Nama: <strong>Budi Santoso</strong></p>
+          <p class="text-muted">Kelas X TJKT 3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
