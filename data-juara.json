@@ -1,1 +1,27 @@
 
+[
+  {
+    "juara": 1,
+    "kategori": "Menyanyi Solo",
+    "nama": "Raisa Putri Ananda",
+    "kelas": "XII IPA 1",
+    "sekolah": "SMA Negeri 5 Jakarta",
+    "gambar": "https://via.placeholder.com/300x200?text=Menyanyi+Solo"
+  },
+  {
+    "juara": 2,
+    "kategori": "Cipta Puisi",
+    "nama": "Andi Saputra",
+    "kelas": "XI IPS 2",
+    "sekolah": "SMA Negeri 3 Bandung",
+    "gambar": "https://via.placeholder.com/300x200?text=Cipta+Puisi"
+  },
+  {
+    "juara": 3,
+    "kategori": "Tari Tradisional",
+    "nama": "Sri Wahyuni",
+    "kelas": "XI Bahasa",
+    "sekolah": "SMA Negeri 1 Surakarta",
+    "gambar": "https://via.placeholder.com/300x200?text=Tari+Tradisional"
+  }
+]
